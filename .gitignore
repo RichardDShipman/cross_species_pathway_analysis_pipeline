@@ -1,0 +1,15 @@
+# Ignore data and results directories
+data/
+results/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore temporary files
+*.zip
+*.faa
+*.psq
+*.phr
+*.pin
+*.tsv
+.DS_Store
