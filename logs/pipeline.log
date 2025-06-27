@@ -84,3 +84,296 @@
 [2025-06-27 16:31:22] Starting Report Generation Phase
 [2025-06-27 16:31:23] Report Generation Phase Complete
 [2025-06-27 16:31:23] Pipeline Finished
+[2025-06-27 17:00:43] Pipeline Started
+[2025-06-27 17:00:43] Starting Data Acquisition Phase
+[2025-06-27 17:00:56] Pipeline Started
+[2025-06-27 17:00:56] Starting Data Acquisition Phase
+[2025-06-27 17:01:19] Pipeline Started
+[2025-06-27 17:01:19] Starting Data Acquisition Phase
+[2025-06-27 17:02:55] Pipeline Started
+[2025-06-27 17:02:55] Starting Data Acquisition Phase
+[2025-06-27 17:02:56] Data Acquisition Phase Complete
+[2025-06-27 17:02:56] Starting BLAST Search Phase
+[2025-06-27 17:07:13] BLAST Search Phase Complete
+[2025-06-27 17:07:13] Starting Report Generation Phase
+[2025-06-27 17:07:14] Report Generation Phase Complete
+[2025-06-27 17:07:14] Pipeline Finished
+[2025-06-27 17:11:12] Pipeline Started
+[2025-06-27 17:11:12] Starting Data Acquisition Phase
+[2025-06-27 17:11:12] Data Acquisition Phase Complete
+[2025-06-27 17:11:12] Starting BLAST Search Phase
+[2025-06-27 17:15:25] BLAST Search Phase Complete
+[2025-06-27 17:15:25] Starting Report Generation Phase
+[2025-06-27 17:15:25] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:15:26] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:15:26] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:15:26] Generating report for species Mus musculus (Tax ID: 10090)
+[2025-06-27 17:15:27] Generating report for species Rattus norvegicus (Tax ID: 10116)
+[2025-06-27 17:15:27] Generating report for species Drosophila melanogaster (Tax ID: 7227)
+[2025-06-27 17:15:27] Generating report for species Caenorhabditis elegans (Tax ID: 6239)
+[2025-06-27 17:15:28] Generating report for species Danio rerio (Tax ID: 7955)
+[2025-06-27 17:15:28] Generating report for species Schizosaccharomyces pombe (Tax ID: 4896)
+[2025-06-27 17:15:28] Generating report for species Saccharomyces paradoxus (Tax ID: 559292)
+[2025-06-27 17:15:29] Generating report for species Zea mays (Tax ID: 4577)
+[2025-06-27 17:15:29] Generating report for species Oryza sativa (Tax ID: 39947)
+[2025-06-27 17:15:29] Generating report for species Nicotiana tabacum (Tax ID: 3701)
+[2025-06-27 17:15:30] Report Generation Phase Complete
+[2025-06-27 17:15:30] Pipeline Finished
+[2025-06-27 17:19:26] Pipeline Started
+[2025-06-27 17:19:26] Starting Data Acquisition Phase
+[2025-06-27 17:19:27] Data Acquisition Phase Complete
+[2025-06-27 17:19:27] Starting BLAST Search Phase
+[2025-06-27 17:23:42] BLAST Search Phase Complete
+[2025-06-27 17:23:42] Starting Report Generation Phase
+[2025-06-27 17:23:42] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:23:42] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:23:42] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:23:43] Generating report for species Mus musculus (Tax ID: 10090)
+[2025-06-27 17:23:43] Generating report for species Rattus norvegicus (Tax ID: 10116)
+[2025-06-27 17:23:43] Generating report for species Drosophila melanogaster (Tax ID: 7227)
+[2025-06-27 17:23:44] Generating report for species Caenorhabditis elegans (Tax ID: 6239)
+[2025-06-27 17:23:44] Generating report for species Danio rerio (Tax ID: 7955)
+[2025-06-27 17:23:45] Generating report for species Schizosaccharomyces pombe (Tax ID: 4896)
+[2025-06-27 17:23:45] Generating report for species Saccharomyces paradoxus (Tax ID: 559292)
+[2025-06-27 17:23:45] Generating report for species Zea mays (Tax ID: 4577)
+[2025-06-27 17:23:45] Generating report for species Oryza sativa (Tax ID: 39947)
+[2025-06-27 17:23:46] Generating report for species Nicotiana tabacum (Tax ID: 3701)
+[2025-06-27 17:23:46] Report Generation Phase Complete
+[2025-06-27 17:23:46] Pipeline Finished
+[2025-06-27 17:34:16] Pipeline Started
+[2025-06-27 17:34:16] Starting Data Acquisition Phase
+[2025-06-27 17:34:16] Data Acquisition Phase Complete
+[2025-06-27 17:34:16] Starting BLAST Search Phase
+[2025-06-27 17:38:36] BLAST Search Phase Complete
+[2025-06-27 17:38:36] Starting Report Generation Phase
+[2025-06-27 17:38:36] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:41:59] Pipeline Started
+[2025-06-27 17:41:59] Starting Data Acquisition Phase
+[2025-06-27 17:41:59] Data Acquisition Phase Complete
+[2025-06-27 17:41:59] Starting BLAST Search Phase
+[2025-06-27 17:42:26] BLAST Search Phase Complete
+[2025-06-27 17:42:26] Starting Report Generation Phase
+[2025-06-27 17:42:26] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:42:27] Report Generation Phase Complete
+[2025-06-27 17:42:27] Pipeline Finished
+[2025-06-27 17:43:04] Pipeline Started
+[2025-06-27 17:43:04] Starting Data Acquisition Phase
+[2025-06-27 17:43:05] Data Acquisition Phase Complete
+[2025-06-27 17:43:05] Starting BLAST Search Phase
+[2025-06-27 17:43:53] BLAST Search Phase Complete
+[2025-06-27 17:43:53] Starting Report Generation Phase
+[2025-06-27 17:43:53] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:43:54] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:43:54] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:43:54] Report Generation Phase Complete
+[2025-06-27 17:43:54] Pipeline Finished
+[2025-06-27 17:46:14] Pipeline Started
+[2025-06-27 17:46:14] Starting Data Acquisition Phase
+[2025-06-27 17:46:15] Data Acquisition Phase Complete
+[2025-06-27 17:46:15] Starting BLAST Search Phase
+[2025-06-27 17:47:03] BLAST Search Phase Complete
+[2025-06-27 17:47:03] Starting Report Generation Phase
+[2025-06-27 17:47:03] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:47:04] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:47:04] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:47:04] Report Generation Phase Complete
+[2025-06-27 17:47:04] Pipeline Finished
+[2025-06-27 17:49:57] Pipeline Started
+[2025-06-27 17:49:57] Starting Data Acquisition Phase
+[2025-06-27 17:49:58] Data Acquisition Phase Complete
+[2025-06-27 17:49:58] Starting BLAST Search Phase
+[2025-06-27 17:50:24] Pipeline Started
+[2025-06-27 17:50:24] Starting Data Acquisition Phase
+[2025-06-27 17:50:25] Data Acquisition Phase Complete
+[2025-06-27 17:50:25] Starting BLAST Search Phase
+[2025-06-27 17:50:28] BLAST Search Phase Complete
+[2025-06-27 17:50:28] Starting Report Generation Phase
+[2025-06-27 17:50:28] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:50:29] Report Generation Phase Complete
+[2025-06-27 17:50:29] Pipeline Finished
+[2025-06-27 17:51:11] Pipeline Started
+[2025-06-27 17:51:11] Starting Data Acquisition Phase
+[2025-06-27 17:51:11] Data Acquisition Phase Complete
+[2025-06-27 17:51:11] Starting BLAST Search Phase
+[2025-06-27 17:55:25] BLAST Search Phase Complete
+[2025-06-27 17:55:25] Starting Report Generation Phase
+[2025-06-27 17:55:25] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:55:25] Generating report for species Schizosaccharomyces pombe (Tax ID: 4896)
+[2025-06-27 17:55:26] Generating report for species Saccharomyces paradoxus (Tax ID: 559292)
+[2025-06-27 17:55:26] Generating report for species Caenorhabditis elegans (Tax ID: 6239)
+[2025-06-27 17:55:26] Generating report for species Drosophila melanogaster (Tax ID: 7227)
+[2025-06-27 17:55:27] Generating report for species Mus musculus (Tax ID: 10090)
+[2025-06-27 17:55:27] Generating report for species Rattus norvegicus (Tax ID: 10116)
+[2025-06-27 17:55:27] Generating report for species Danio rerio (Tax ID: 7955)
+[2025-06-27 17:55:28] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:55:28] Generating report for species Zea mays (Tax ID: 4577)
+[2025-06-27 17:55:28] Generating report for species Oryza sativa (Tax ID: 39947)
+[2025-06-27 17:55:29] Generating report for species Nicotiana tabacum (Tax ID: 3701)
+[2025-06-27 17:55:29] Generating report for species Solanum lycopersicum (Tax ID: 4081)
+[2025-06-27 17:55:29] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:55:30] Report Generation Phase Complete
+[2025-06-27 17:55:30] Pipeline Finished
+[2025-06-27 17:59:03] Pipeline Started
+[2025-06-27 17:59:03] Starting Data Acquisition Phase
+[2025-06-27 17:59:03] Data Acquisition Phase Complete
+[2025-06-27 17:59:03] Starting BLAST Search Phase
+[2025-06-27 17:59:31] Pipeline Started
+[2025-06-27 17:59:31] Starting Data Acquisition Phase
+[2025-06-27 17:59:31] Data Acquisition Phase Complete
+[2025-06-27 17:59:31] Starting BLAST Search Phase
+[2025-06-27 17:59:51] BLAST Search Phase Complete
+[2025-06-27 17:59:51] Starting Report Generation Phase
+[2025-06-27 17:59:51] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 17:59:52] Generating report for species Schizosaccharomyces pombe (Tax ID: 4896)
+[2025-06-27 17:59:52] Generating report for species Saccharomyces paradoxus (Tax ID: 559292)
+[2025-06-27 17:59:52] Generating report for species Caenorhabditis elegans (Tax ID: 6239)
+[2025-06-27 17:59:53] Generating report for species Drosophila melanogaster (Tax ID: 7227)
+[2025-06-27 17:59:53] Generating report for species Mus musculus (Tax ID: 10090)
+[2025-06-27 17:59:53] Generating report for species Rattus norvegicus (Tax ID: 10116)
+[2025-06-27 17:59:53] Generating report for species Danio rerio (Tax ID: 7955)
+[2025-06-27 17:59:54] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 17:59:54] Generating report for species Zea mays (Tax ID: 4577)
+[2025-06-27 17:59:54] Generating report for species Oryza sativa (Tax ID: 39947)
+[2025-06-27 17:59:54] Generating report for species Nicotiana tabacum (Tax ID: 3701)
+[2025-06-27 17:59:55] Generating report for species Solanum lycopersicum (Tax ID: 4081)
+[2025-06-27 17:59:55] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 17:59:55] Report Generation Phase Complete
+[2025-06-27 17:59:55] Pipeline Finished
+[2025-06-27 18:00:17] Pipeline Started
+[2025-06-27 18:00:17] Starting Data Acquisition Phase
+[2025-06-27 18:00:17] Data Acquisition Phase Complete
+[2025-06-27 18:00:17] Starting BLAST Search Phase
+[2025-06-27 18:17:00] Pipeline Started
+[2025-06-27 18:17:00] Starting Data Acquisition Phase
+[2025-06-27 18:17:00] Data Acquisition Phase Complete
+[2025-06-27 18:17:00] Starting BLAST Search Phase
+[2025-06-27 18:17:16] BLAST Search Phase Complete
+[2025-06-27 18:17:16] Starting Report Generation Phase
+[2025-06-27 18:17:16] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:17:16] Report Generation Phase Complete
+[2025-06-27 18:17:16] Pipeline Finished
+[2025-06-27 18:20:18] Pipeline Started
+[2025-06-27 18:20:18] Starting Data Acquisition Phase
+[2025-06-27 18:20:19] Data Acquisition Phase Complete
+[2025-06-27 18:20:19] Starting BLAST Search Phase
+[2025-06-27 18:20:20] BLAST Search Phase Complete
+[2025-06-27 18:20:20] Starting Report Generation Phase
+[2025-06-27 18:20:20] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:20:20] Report Generation Phase Complete
+[2025-06-27 18:20:20] Pipeline Finished
+[2025-06-27 18:23:20] Pipeline Started
+[2025-06-27 18:23:20] Starting Data Acquisition Phase
+[2025-06-27 18:23:21] Data Acquisition Phase Complete
+[2025-06-27 18:23:21] Starting BLAST Search Phase
+[2025-06-27 18:23:22] BLAST Search Phase Complete
+[2025-06-27 18:23:22] Starting Report Generation Phase
+[2025-06-27 18:23:22] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:23:22] Report Generation Phase Complete
+[2025-06-27 18:23:22] Pipeline Finished
+[2025-06-27 18:24:39] Pipeline Started
+[2025-06-27 18:24:39] Starting Data Acquisition Phase
+[2025-06-27 18:24:39] Data Acquisition Phase Complete
+[2025-06-27 18:24:39] Starting BLAST Search Phase
+[2025-06-27 18:24:40] BLAST Search Phase Complete
+[2025-06-27 18:24:40] Starting Report Generation Phase
+[2025-06-27 18:24:40] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:24:40] Report Generation Phase Complete
+[2025-06-27 18:24:40] Pipeline Finished
+[2025-06-27 18:29:38] Pipeline Started
+[2025-06-27 18:29:38] Starting Data Acquisition Phase
+[2025-06-27 18:29:38] Data Acquisition Phase Complete
+[2025-06-27 18:29:38] Starting BLAST Search Phase
+[2025-06-27 18:29:39] BLAST Search Phase Complete
+[2025-06-27 18:29:39] Starting Report Generation Phase
+[2025-06-27 18:29:39] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:29:39] Report Generation Phase Complete
+[2025-06-27 18:29:39] Pipeline Finished
+[2025-06-27 18:29:53] Pipeline Started
+[2025-06-27 18:29:53] Starting Data Acquisition Phase
+[2025-06-27 18:29:54] Data Acquisition Phase Complete
+[2025-06-27 18:29:54] Starting BLAST Search Phase
+[2025-06-27 18:29:55] BLAST Search Phase Complete
+[2025-06-27 18:29:55] Starting Report Generation Phase
+[2025-06-27 18:29:55] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:29:55] Report Generation Phase Complete
+[2025-06-27 18:29:55] Pipeline Finished
+[2025-06-27 18:29:59] Pipeline Started
+[2025-06-27 18:29:59] Starting Data Acquisition Phase
+[2025-06-27 18:29:59] Data Acquisition Phase Complete
+[2025-06-27 18:29:59] Starting BLAST Search Phase
+[2025-06-27 18:30:00] BLAST Search Phase Complete
+[2025-06-27 18:30:00] Starting Report Generation Phase
+[2025-06-27 18:30:00] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:30:00] Report Generation Phase Complete
+[2025-06-27 18:30:00] Pipeline Finished
+[2025-06-27 18:30:47] Pipeline Started
+[2025-06-27 18:30:47] Starting Data Acquisition Phase
+[2025-06-27 18:30:48] Data Acquisition Phase Complete
+[2025-06-27 18:30:48] Starting BLAST Search Phase
+[2025-06-27 18:30:49] BLAST Search Phase Complete
+[2025-06-27 18:30:49] Starting Report Generation Phase
+[2025-06-27 18:30:49] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:30:49] Report Generation Phase Complete
+[2025-06-27 18:30:49] Pipeline Finished
+[2025-06-27 18:31:58] Pipeline Started
+[2025-06-27 18:31:58] Starting Data Acquisition Phase
+[2025-06-27 18:31:59] Data Acquisition Phase Complete
+[2025-06-27 18:31:59] Starting BLAST Search Phase
+[2025-06-27 18:32:10] BLAST Search Phase Complete
+[2025-06-27 18:32:10] Starting Report Generation Phase
+[2025-06-27 18:32:10] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:32:11] Report Generation Phase Complete
+[2025-06-27 18:32:11] Pipeline Finished
+[2025-06-27 18:33:44] Pipeline Started
+[2025-06-27 18:33:44] Starting Data Acquisition Phase
+[2025-06-27 18:33:44] Data Acquisition Phase Complete
+[2025-06-27 18:33:44] Starting BLAST Search Phase
+[2025-06-27 18:33:56] BLAST Search Phase Complete
+[2025-06-27 18:33:56] Starting Report Generation Phase
+[2025-06-27 18:33:56] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:33:56] Report Generation Phase Complete
+[2025-06-27 18:33:56] Pipeline Finished
+[2025-06-27 18:34:06] Pipeline Started
+[2025-06-27 18:34:06] Starting Data Acquisition Phase
+[2025-06-27 18:34:06] Data Acquisition Phase Complete
+[2025-06-27 18:34:06] Starting BLAST Search Phase
+[2025-06-27 18:36:36] Pipeline Started
+[2025-06-27 18:36:36] Starting Data Acquisition Phase
+[2025-06-27 18:36:36] Data Acquisition Phase Complete
+[2025-06-27 18:36:36] Starting BLAST Search Phase
+[2025-06-27 18:36:48] BLAST Search Phase Complete
+[2025-06-27 18:36:48] Starting Report Generation Phase
+[2025-06-27 18:36:48] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:36:49] Report Generation Phase Complete
+[2025-06-27 18:36:49] Pipeline Finished
+[2025-06-27 18:38:15] Pipeline Started
+[2025-06-27 18:38:15] Starting Data Acquisition Phase
+[2025-06-27 18:38:16] Data Acquisition Phase Complete
+[2025-06-27 18:38:16] Starting BLAST Search Phase
+[2025-06-27 18:38:28] BLAST Search Phase Complete
+[2025-06-27 18:38:28] Starting Report Generation Phase
+[2025-06-27 18:38:28] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:38:28] Report Generation Phase Complete
+[2025-06-27 18:38:28] Pipeline Finished
+[2025-06-27 18:39:02] Pipeline Started
+[2025-06-27 18:39:02] Starting Data Acquisition Phase
+[2025-06-27 18:39:03] Data Acquisition Phase Complete
+[2025-06-27 18:39:03] Starting BLAST Search Phase
+[2025-06-27 18:59:26] BLAST Search Phase Complete
+[2025-06-27 18:59:26] Starting Report Generation Phase
+[2025-06-27 18:59:26] Generating report for species Saccharomyces cerevisiae (Tax ID: 4932)
+[2025-06-27 18:59:27] Generating report for species Schizosaccharomyces pombe (Tax ID: 4896)
+[2025-06-27 18:59:27] Generating report for species Saccharomyces paradoxus (Tax ID: 559292)
+[2025-06-27 18:59:27] Generating report for species Caenorhabditis elegans (Tax ID: 6239)
+[2025-06-27 18:59:28] Generating report for species Drosophila melanogaster (Tax ID: 7227)
+[2025-06-27 18:59:28] Generating report for species Mus musculus (Tax ID: 10090)
+[2025-06-27 18:59:28] Generating report for species Rattus norvegicus (Tax ID: 10116)
+[2025-06-27 18:59:29] Generating report for species Danio rerio (Tax ID: 7955)
+[2025-06-27 18:59:29] Generating report for species Homo sapiens (Tax ID: 9606)
+[2025-06-27 18:59:29] Generating report for species Zea mays (Tax ID: 4577)
+[2025-06-27 18:59:29] Generating report for species Oryza sativa (Tax ID: 39947)
+[2025-06-27 18:59:30] Generating report for species Nicotiana tabacum (Tax ID: 3701)
+[2025-06-27 18:59:30] Generating report for species Solanum lycopersicum (Tax ID: 4081)
+[2025-06-27 18:59:30] Generating report for species Arabidopsis thaliana (Tax ID: 3702)
+[2025-06-27 18:59:31] Report Generation Phase Complete
+[2025-06-27 18:59:31] Pipeline Finished

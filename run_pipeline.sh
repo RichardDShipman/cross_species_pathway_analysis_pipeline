@@ -33,7 +33,21 @@ run_blast_search() {
 # --- Phase 3: Report Generation ---
 run_report_generation() {
     log "Starting Report Generation Phase"
-    python3 src/report_generation.py
+
+    # Read target_species.csv and generate a report for each species
+    if [ -f "input/target_species.csv" ]; then
+        # Skip header row and read each tax_id
+        tail -n +2 "input/target_species.csv" | while IFS=, read -r tax_id species_name;
+        do
+            if [ -n "$tax_id" ]; then
+                log "Generating report for species $species_name (Tax ID: $tax_id)"
+                python3 src/report_generation.py "$tax_id"
+            fi
+        done
+    else
+        log "Error: input/target_species.csv not found. Cannot generate reports."
+    fi
+
     log "Report Generation Phase Complete"
 }
 

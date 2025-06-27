@@ -1,6 +1,5 @@
 # Ignore data and results directories
 data/
-results/
 
 # Ignore Python virtual environment
 venv/

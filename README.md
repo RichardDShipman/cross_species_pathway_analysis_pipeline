@@ -1,5 +1,7 @@
 # Cross-Species Pathway Analysis Pipeline
 
+Richard Shipman - 2025
+
 This repository contains a simple, automated pipeline for comparing a human enzymatic pathway across hundreds of other species. The pipeline is designed to be straightforward, using Python, Bash, and standard command-line bioinformatics tools.
 
 ## Setup Instructions
@@ -73,9 +75,25 @@ pip install -r requirements.txt
     functional_annotations = results/functional_annotations/
     pathway_wikipedia = results/pathway_wikipedia/
     logs = logs/
+    target_species_file = input/target_species.csv
 
     [settings]
-    num_threads = 4
+    num_threads = 8
+    query_file = input/human_n_linked_glycosylation_pathway.fasta
+
+    [blast_settings]
+    # E-value cutoff for BLAST hits. Lower values are more stringent.
+    evalue = 0.001
+    # Maximum number of aligned sequences to keep.
+    max_target_seqs = 500
+    # Word size for BLAST search. Larger word sizes are faster but less sensitive.
+    word_size = 11
+    # Scoring matrix for BLAST. Common choices include BLOSUM62, PAM30, etc.
+    matrix = BLOSUM62
+    # Gap open penalty.
+    gapopen = 11
+    # Gap extension penalty.
+    gapextend = 1
     ```
 
 *   **`input/target_species.csv`:** This file specifies the eukaryotic species for cross-species analysis. It contains `tax_id` and `species_name`.
@@ -110,3 +128,8 @@ bash run_pipeline.sh
 *   `data/blast_results/` will contain `.tsv` files with raw BLAST results for each species.
 *   `results/functional_annotations/pathway_analysis_report.md` will contain a summary of the BLAST results.
 *   `logs/pipeline.log` will contain a detailed log of the pipeline execution.
+
+### Citation
+
+Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410.
+

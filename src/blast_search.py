@@ -11,15 +11,25 @@ def main():
     blast_db_dir = config['paths']['blast_databases']
     blast_results_dir = config['paths']['blast_results']
 
+    target_species_file = config['paths']['target_species_file']
+
     # Read target species from CSV
     try:
-        target_species_df = pd.read_csv('input/target_species.csv')
+        target_species_df = pd.read_csv(target_species_file)
         species_tax_ids = target_species_df['tax_id'].astype(str).tolist()
     except FileNotFoundError:
-        print("Error: input/target_species.csv not found. Please create it.")
+        print(f"Error: {target_species_file} not found. Please create it.")
         return
 
-    query_file = "input/human_pathway_proteins.fasta"
+    query_file = config['settings']['query_file']
+
+    # BLAST parameters
+    evalue = config['blast_settings'].getfloat('evalue')
+    max_target_seqs = config['blast_settings'].getint('max_target_seqs')
+    word_size = config['blast_settings'].getint('word_size')
+    matrix = config['blast_settings']['matrix']
+    gapopen = config['blast_settings'].getint('gapopen')
+    gapextend = config['blast_settings'].getint('gapextend')
 
     for tax_id in species_tax_ids:
         db_name = f"{blast_db_dir}/{tax_id}"
@@ -35,6 +45,13 @@ def main():
             "-query", query_file,
             "-db", db_name,
             "-outfmt", "6 std qlen slen", # Standard output format plus query and subject lengths
+            "-evalue", str(evalue),
+            "-max_target_seqs", str(max_target_seqs),
+            "-word_size", str(word_size),
+            "-matrix", matrix,
+            "-gapopen", str(gapopen),
+            "-gapextend", str(gapextend),
+            
             "-out", output_file
         ])
 
