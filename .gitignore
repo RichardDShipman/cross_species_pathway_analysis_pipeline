@@ -1,6 +1,6 @@
 # Ignore data and results directories
-data/blast_databases/
-data/proteomes/
+data/blast_databases
+data/proteomes
 
 
 # Ignore Python virtual environment
@@ -12,5 +12,4 @@ venv/
 *.psq
 *.phr
 *.pin
-*.tsv
 .DS_Store
