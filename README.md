@@ -45,7 +45,7 @@ This pipeline depends on two core bioinformatics tools from NCBI: `NCBI Datasets
 The pipeline uses a predefined folder structure for data and results. Create these directories using the following command:
 
 ```bash
-mkdir -p data/proteomes data/blast_databases data/blast_results results/functional_annotations results/pathway_wikipedia logs
+mkdir -p data/proteomes data/genomes data/transcriptomes data/blast_databases data/blast_results results/functional_annotations results/pathway_wikipedia logs
 ```
 
 ### 4. Set Up the Python Environment
@@ -73,6 +73,10 @@ pip install -r requirements.txt
 
     [settings]
     num_threads = 8
+    # Set to true to download reference genomes (large files)
+    download_genomes = false
+    # Set to true to download reference transcriptomes (large files)
+    download_transcriptomes = false
     query_file = input/human_glycosylation_pathway.fasta
 
     [blast_settings]

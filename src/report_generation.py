@@ -38,9 +38,9 @@ def main():
     # Read protein IDs from the query fasta file
     import re
 
-    print(f"Debug: Current working directory: {os.getcwd()}")
-    print(f"Debug: Query file path: {query_file_path}")
-    print(f"Debug: Query file exists: {os.path.exists(query_file_path)}")
+    print(f"Current working directory: {os.getcwd()}")
+    print(f"Query file path: {query_file_path}")
+    print(f"Query file exists: {os.path.exists(query_file_path)}")
 
     query_proteins_info = []
     try:

@@ -21,7 +21,7 @@ RUN curl -o datasets "https://s3.amazonaws.com/datasets-cli/v17.1.1/linux-amd64/
 COPY . .
 
 # Create the directory structure required by the pipeline
-RUN mkdir -p data/proteomes data/blast_databases data/blast_results results/functional_annotations logs
+RUN mkdir -p data/proteomes data/genomes data/transcriptomes data/blast_databases data/blast_results results/functional_annotations logs
 
 # Install Python dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt

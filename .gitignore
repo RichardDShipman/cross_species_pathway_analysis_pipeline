@@ -1,7 +1,8 @@
 # Ignore data and results directories
 data/blast_databases
 data/proteomes
-
+data/genomes
+data/transcriptomes
 
 # Ignore Python virtual environment
 venv/
