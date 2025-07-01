@@ -10,12 +10,7 @@ Follow these steps to set up your environment and run the initial test of the pi
 
 ### 1. Clone the Repository
 
-If you haven't already, clone this repository to your local machine:
-
-```bash
-git clone <repository_url> # Replace with the actual repository URL
-cd cross_species_analysis_pipeline/
-```
+If you haven't already, clone this repository to your local machine.```
 
 ### 2. Install Required Command-Line Tools
 
@@ -73,21 +68,20 @@ pip install -r requirements.txt
     blast_databases = data/blast_databases/
     blast_results = data/blast_results/
     functional_annotations = results/functional_annotations/
-    pathway_wikipedia = results/pathway_wikipedia/
     logs = logs/
     target_species_file = input/target_species.csv
 
     [settings]
     num_threads = 8
-    query_file = input/human_n_linked_glycosylation_pathway.fasta
+    query_file = input/human_glycosylation_pathway.fasta
 
     [blast_settings]
     # E-value cutoff for BLAST hits. Lower values are more stringent.
     evalue = 0.001
     # Maximum number of aligned sequences to keep.
-    max_target_seqs = 500
+    max_target_seqs = 10
     # Word size for BLAST search. Larger word sizes are faster but less sensitive.
-    word_size = 11
+    word_size = 3
     # Scoring matrix for BLAST. Common choices include BLOSUM62, PAM30, etc.
     matrix = BLOSUM62
     # Gap open penalty.
@@ -128,6 +122,43 @@ bash run_pipeline.sh
 *   `data/blast_results/` will contain `.tsv` files with raw BLAST results for each species.
 *   `results/functional_annotations/pathway_analysis_report.md` will contain a summary of the BLAST results.
 *   `logs/pipeline.log` will contain a detailed log of the pipeline execution.
+
+## Running with Docker
+
+Alternatively, you can use the provided `Dockerfile` to run the pipeline in a containerized environment. This avoids the need to install dependencies on your local machine.
+
+### 1. Build the Docker Image
+
+From the root of the project directory, build the Docker image:
+
+```bash
+docker build -t cross-species-pipeline .
+```
+
+### 2. Run the Pipeline in a Docker Container
+
+Once the image is built, you can run the pipeline using the following command:
+
+```bash
+docker run --rm -v $(pwd)/data:/app/data -v $(pwd)/results:/app/results -v $(pwd)/logs:/app/logs cross-species-pipeline
+```
+
+This command will:
+*   Run the pipeline inside a container.
+*   Mount the `data`, `results`, and `logs` directories from your local machine into the container, so that the output is saved to your project directory.
+*   The `--rm` flag will automatically remove the container when the pipeline finishes.
+
+## Methodology
+
+### Why BLAST?
+
+The core of this pipeline relies on the Basic Local Alignment Search Tool (BLAST) to identify homologous proteins across different species. BLAST is a cornerstone of bioinformatics, widely recognized for its ability to find regions of local similarity between sequences. This makes it an ideal choice for:
+
+*   **Identifying Homologs:** By comparing the amino acid sequences of the human pathway proteins (the "query") against the entire proteome of a target species, we can identify proteins that are likely to have a shared evolutionary origin and potentially a similar function.
+*   **Speed and Efficiency:** BLAST is highly optimized for searching large databases, making it feasible to analyze hundreds of species in a reasonable amount of time.
+*   **Statistical Significance:** BLAST provides a statistical measure of the significance of a match (the E-value), which helps to distinguish between true homologs and random sequence similarity. A lower E-value indicates a more significant match.
+
+The pipeline specifically uses `blastp`, which is designed for protein-protein comparisons. The results of the BLAST search provide the raw data for the subsequent analysis and report generation, allowing us to infer the presence or absence of the pathway of interest in the target species.
 
 ### Citation
 

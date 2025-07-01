@@ -5,6 +5,7 @@ set -e
 
 # Get log directory from config.ini
 LOG_DIR=$(grep '^logs' config.ini | sed 's/.*= *//')
+target_species_file=$(grep '^target_species_file' config.ini | sed 's/.*= *//')
 
 # Create logs directory if it doesn't exist
 mkdir -p "$LOG_DIR"
@@ -35,9 +36,9 @@ run_report_generation() {
     log "Starting Report Generation Phase"
 
     # Read target_species.csv and generate a report for each species
-    if [ -f "input/target_species.csv" ]; then
+    if [ -f "$target_species_file" ]; then
         # Skip header row and read each tax_id
-        tail -n +2 "input/target_species.csv" | while IFS=, read -r tax_id species_name;
+        tail -n +2 "$target_species_file" | while IFS=, read -r tax_id species_name;
         do
             if [ -n "$tax_id" ]; then
                 log "Generating report for species $species_name (Tax ID: $tax_id)"
@@ -45,7 +46,7 @@ run_report_generation() {
             fi
         done
     else
-        log "Error: input/target_species.csv not found. Cannot generate reports."
+        log "Error: $target_species_file not found. Cannot generate reports."
     fi
 
     log "Report Generation Phase Complete"
